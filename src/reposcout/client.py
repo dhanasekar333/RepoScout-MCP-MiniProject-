@@ -1,3 +1,9 @@
+# this file isn't even needed as this serves for testing purpose only. 
+
+#In this case app.py is our client, as our agent lives there and communicate with external servers
+# and our own report server.
+
+
 import asyncio
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
